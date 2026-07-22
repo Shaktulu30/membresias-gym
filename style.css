@@ -64,3 +64,18 @@ option {
     background: #1a1a1a;   /* fondo oscuro para las opciones */
     color: white;
 }
+
+#resumen {
+    background: rgba(27, 190, 12, 0.12); /*verde tenue que resalte*/
+    border: 1px solid rgba (27, 190, 12, 0.35);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 24px auto;
+    max-width: 480px;
+}
+
+#planElegido {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 8px;
+}
