@@ -31,6 +31,13 @@ main {
     padding: 20px;
     margin: 16px 0;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    transition: 0.2s ease; /*suavizar efecto hoover*/
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15); /*se ilumina un poco*/
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5); /*sombra mas grande y elevada*/
 }
 
 button {
