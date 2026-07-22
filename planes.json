@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Sala",
+    "precio": 55000,
+    "beneficios": ["Acceso a la sala de fitness"]
+  },
+  {
+    "nombre": "Semipersonal",
+    "precio": 63000,
+    "beneficios": ["Entrenamiento semipersonalizado", "Acceso a todas las instalaciones"]
+  },
+  {
+    "nombre": "Personal",
+    "precio": 70000,
+    "beneficios": ["Entrenamiento personalizado", "Acceso a todas las instalaciones", "Asesoramiento nutricional"]
+  }
+]
