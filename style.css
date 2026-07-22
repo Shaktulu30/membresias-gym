@@ -99,3 +99,10 @@ option {
     color: rgba(255, 255, 255, 0.75);
     margin-bottom: 32px;
 }
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 50%;
+}
