@@ -18,6 +18,7 @@ fetch("planes.json")
     planes = datos;
     planes.forEach((plan) => {
       const tarjeta = document.createElement("div");
+      tarjeta.className = "tarjeta";
       tarjeta.innerHTML = `<h3>${plan.nombre}</h3>
             <p>Precio: $${plan.precio}</p>
             <p>Beneficios: ${plan.beneficios.join(", ")}</p>`;
