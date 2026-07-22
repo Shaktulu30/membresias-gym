@@ -32,3 +32,35 @@ main {
     margin: 16px 0;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #1bbe0c;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease; /*suaviza efecto de hover*/
+    margin-top: 12px;
+}
+
+button:hover {
+    transform: translateY(-2px); /*sube 2px al pasar el mouse*/
+    opacity: 0.9;
+}
+
+select {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    cursor: pointer;
+    margin: 8px;
+}
+
+option {
+    background: #1a1a1a;   /* fondo oscuro para las opciones */
+    color: white;
+}
