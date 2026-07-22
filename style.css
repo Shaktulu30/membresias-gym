@@ -79,3 +79,16 @@ option {
     font-weight: 600;
     margin-top: 8px;
 }
+
+#titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: 1px; /* separa letras para que se vea mejor */
+}
+
+#mensaje {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 32px;
+}
