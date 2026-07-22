@@ -44,6 +44,11 @@ planesdiv.addEventListener("click", (event) => {
     let precioFinal = planElegidoObj.precio * meses; // Calcula el precio final multiplicando el precio del plan por la cantidad de meses
     if (meses >= 12) {
       precioFinal = precioFinal * 0.85;
+    }
+
+    precioFinal = Math.round(precioFinal); // redondea precio final, ya con descuento (por las dudas a futuro)
+
+    if (meses >=12) {
       planElegido.textContent = `Has elegido el plan ${nombrePlan} por ${meses} meses. Precio final: $${precioFinal} (Se aplicó un descuento del 15% por contratar 12 meses o más)`; // Muestra un mensaje indicando que se aplicó un descuento
     } else {
       planElegido.textContent = `Has elegido el plan ${nombrePlan} por ${meses} meses. Precio final: $${precioFinal}`; // Muestra el resumen del plan elegido en el contenedor correspondiente
